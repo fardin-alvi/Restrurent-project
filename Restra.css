@@ -121,13 +121,83 @@
     justify-content: center;
     margin: 20px 20px;
 }
+.middle{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+.middle-head{
+    display: flex;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: justify;
+    margin: 10px;
+    font-family: Work Sans;  
+}
+.middle-sec-title{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Work Sans;
+}
+.middle-final{
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Work Sans;
+}
+.food-image{
+    width: 700px;
+}
+.middle-content{
+    text-align: center;
+    margin-top: 120px;
+}
 #social{
     height:400px;
     width: 100%;
-    background-image: url("./assets/social-bg.png");
+    background-image: linear-gradient(rgba(250, 239, 239, 0.812),rgba(226, 215, 215, 0.864)), url("./assets/social-bg.png") ;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+}
+.para{
+    margin: auto;
+}
+.footer-head{
+    display: flex;
+    font-weight: 600;
+    font-size: 30px;
+    /* justify-content: center; */
+    text-align: justify;
+    /* border: 1px solid red; */
+    margin: 10px;
+    font-family: Work Sans;   
+}
+.footer-sec-title{
+    /* margin: auto; */
+    /* margin-left: 180px; */
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Work Sans;
+    /* margin-bottom: 500px; */
+}
+.footer-final{
+    /* margin-left: 300px; */
+    /* margin-bottom: 200px; */
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Work Sans;
+}
+.main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.social-media{
+    display: flex;
+    justify-content: center;   
 }
