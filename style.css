@@ -139,6 +139,9 @@
     font-weight: 500;
     font-family: Work Sans;
 }
+hr{
+    margin-top: 20px;
+}
 .middle-final{
     margin-top: 30px;
     font-weight: 500;
@@ -174,7 +177,9 @@
     text-align: justify;
     /* border: 1px solid red; */
     margin: 10px;
-    font-family: Work Sans;   
+    font-family: Work Sans;
+    margin: 0 auto;
+    width: 80%;   
 }
 .footer-sec-title{
     /* margin: auto; */
@@ -200,4 +205,13 @@
 .social-media{
     display: flex;
     justify-content: center;   
+}
+.text-center{
+    text-align: center;
+}
+.para p{
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Work Sans;
 }
